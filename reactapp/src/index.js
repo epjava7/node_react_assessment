@@ -20,6 +20,8 @@ root.render(<App />)
   Virtual DOM is a copy of the DOM in memory. It is used to optimize changes to the DOM.
   A diffing algo is used to compare changes to the DOM and only updates the changes needed.
 
-  The state can be changed with setState() and useState() and starts the comparison process.
+  The state can be changed with setState() (class components) 
+  and useState() (hook for functional components) and starts comparing 
+  and updates the virtual DOM then the DOM.
 
 */

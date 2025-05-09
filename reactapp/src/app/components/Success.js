@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import SuccessChild from './SuccessChild'
 import SuccessStory from './SuccessStory'
+import StudentSignIn from './StudentSignIn'
+import UserSignIn from './UserSignIn'
 
 class Success extends Component {
   render() {
@@ -19,6 +21,11 @@ class Success extends Component {
           address={address}
           storyComponent={<SuccessStory />}
         />
+        <br></br>
+
+        <StudentSignIn />
+        <br></br>
+        <UserSignIn />
       </div>
     )
   }
